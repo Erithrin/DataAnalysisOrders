@@ -9,3 +9,5 @@ This project showcases an end-to-end data analytics workflow using Python and SQ
 3. Load and manage data in a MySQL server database
 4. Perform data analysis and extract meaningful insights using SQL queries.
 5. Create a visualization dashboard on Tableau  
+
+![image](https://github.com/user-attachments/assets/82031a2b-deeb-4dbc-88c3-74f0f507ad40)
