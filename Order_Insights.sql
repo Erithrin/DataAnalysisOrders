@@ -1,11 +1,14 @@
 #--find top 10 highest revenue generating products 
 select 
-	product_id
-from
+	product_id,
+	sum(sales_price) as sales
+from 
 	df_orders
+group by 
+	product_id
 order by 
-	profit desc
-limit 10;
+	sales desc
+limit 10
 	
 
 
